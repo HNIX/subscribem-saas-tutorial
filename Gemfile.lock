@@ -4,6 +4,7 @@ PATH
     subscribem (0.0.1)
       bcrypt
       rails (~> 4.2.0)
+      warden
 
 GEM
   remote: https://rubygems.org/
@@ -129,6 +130,8 @@ GEM
     tilt (1.4.1)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
+    warden (1.2.3)
+      rack (>= 1.0)
     xpath (2.0.0)
       nokogiri (~> 1.3)
 

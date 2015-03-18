@@ -20,6 +20,8 @@ Gem::Specification.new do |s|
 
   s.add_dependency "bcrypt"
 
+  s.add_dependency "warden"
+
   s.add_development_dependency "sqlite3"
 
   s.add_development_dependency "rspec-rails"
